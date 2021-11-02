@@ -1,0 +1,26 @@
+.contenedor{
+width: 80%;
+margin-left: 10%;
+}
+
+.contenedor-derecho{
+width: 50%;
+float: left;
+padding: 20px;
+}
+
+.contenedor-izquierdo{
+width: 50%;
+float: left;
+padding: 20px;
+}
+
+.contenedor-abajo{
+    padding: 20px;
+    text-align: center;
+}
+
+textarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,40 @@
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 255, 255)">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]='["/menuadministrador/registrarpsicologo"]'>Registrar Psicologo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]='["/menuadministrador/registraradministrador"]'>Registrar Administrador</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Consultas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" [routerLink]='["/menuadministrador/consultarpsicologo"]' >Consultar Psicologos</a></li>
+              <li><a class="dropdown-item" [routerLink]='["/menuadministrador/consultarpacientes"]'>Consultar Pacientes</a></li>
+              <li><a class="dropdown-item"[routerLink]='["/menuadministrador/consultaradministrador"]'>Consultar Administradores</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]='["/login"]'>Salir</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <p>Nombre de Usuario</p>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <hr>
+<body>
+  <router-outlet></router-outlet>
+</body>
+  
+
+ 

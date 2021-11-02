@@ -1,0 +1,15 @@
+.contenedor-form{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+
+}
+
+.form-select{
+    margin-bottom: 15px;
+}
+
+.btn-primary{
+    margin: 10px;
+}
+

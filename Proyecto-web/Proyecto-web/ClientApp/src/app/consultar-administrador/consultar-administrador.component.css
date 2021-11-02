@@ -1,0 +1,21 @@
+.contenedor-cons-paciente{
+    width: 30%;
+    margin-left: 35%;
+    
+}
+
+.form-control{
+    float: left;
+    width: 30%;
+    margin-left: 32%;
+    margin-right: 20px;
+    
+}
+
+.contenedor-form{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
